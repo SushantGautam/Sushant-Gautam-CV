@@ -18,9 +18,11 @@
 \RequirePackage{xcolor}
 \RequirePackage{fontawesome}
 \RequirePackage{academicons}
-\usepackage{multicol}
-\usepackage{setspace}
-\usepackage[english]{babel}
+\RequirePackage{array} 
+\RequirePackage{ragged2e}
+\RequirePackage{multicol}
+\RequirePackage{setspace}
+\RequirePackage[english]{babel}
 
 \pagestyle{empty}
 
