@@ -1,5 +1,5 @@
 \RequirePackage{expl3,l3keys2e}
-\ProvidesExplClass{resume}
+\ProvidesExplClass{resumex}
 {2022-12-26}{0.1.0}{Another Resume Class by Feng Kaiyu}
 
 \LoadClass[zihao=5,autoindent=0.5em]{ctexbook}
