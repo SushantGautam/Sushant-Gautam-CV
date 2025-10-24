@@ -1,4 +1,4 @@
-name: Notify website to update CV
+name: Notify sushantgautam.github.io repo to update CV
 
 on:
   push:
