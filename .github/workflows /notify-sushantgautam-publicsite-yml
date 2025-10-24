@@ -16,3 +16,4 @@ jobs:
             -H "Authorization: Bearer ${{ secrets.GH_PAGES_PAT }}" \
             https://api.github.com/repos/SushantGautam/sushantgautam.github.io/actions/workflows/update-CV.yml/dispatches \
             -d '{"ref":"master"}'
+
