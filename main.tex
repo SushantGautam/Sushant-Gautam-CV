@@ -1,219 +1,215 @@
-\documentclass{resumex}
-\ResumeName{Sushant Gautam}
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{black} 
+\usepackage[scale=0.88]{geometry}
+\usepackage{enumitem}
+\pagenumbering{arabic}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, urlcolor=[rgb]{0.15,0.15,0.45}}
+\setlist[itemize]{noitemsep,topsep=2pt,leftmargin=1.5em}
+\renewcommand*{\namefont}{\fontsize{18}{20}\selectfont}   % default ~28
+\renewcommand*{\titlefont}{\fontsize{14}{16}\selectfont}  % default ~14
+
+% ----- personal data -----
+\name{Sushant}{Gautam}
+\title{PhD Student — Multimodal Understanding}
+% \address{Oslo, Norway}
+\phone[mobile]{+47 986 72 556}
+\email{sushant@simula.no}
+\homepage{sushant.info.np}
+\social[linkedin]{eSushant}
+\social[github]{SushantGautam}
+\social[researchgate]{Sushant-Gautam}
+\social[googlescholar]{t3Iie8cAAAAJ}
+
+% \extrainfo{Nationality: Nepalese} % optional
 
 \begin{document}
-
-\ResumeContacts{
-   \faPhone (+47) 986 72 556,%
-   \faicon{envelope}
-   \ResumeUrl{mailto:sushant@simula.no}{sushant@simula.no},%
-\faLinkedinSquare/ \ResumeUrl{https://www.linkedin.com/in/esushant}{eSushant},
-\faicon{github}/ \ResumeUrl{https://github.com/SushantGautam}{SushantGautam},
-RG/ \ResumeUrl{https://www.researchgate.net/profile/Sushant-Gautam/research}{Sushant-Gautam},
-}
-
-\ResumeTitle
-
-% \section{Personal Summary}
-
-% \begin{itemize}
-%    % TODO: Reduce unsubstantiated self-reports
-%    \item I am optimistic and cheerful, with excellent grades in school, strong self-driving ability, good communication skills and teamwork spirit, and can use English for work communication (CET-6 grade xxx).
-%    \item has six years of experience in using Linux, rich experience in software development, contribution and maintenance of open source projects. Good at technical writing, continue to pay attention to the development of Internet technology.
-%    \item Job Intent: Distributed system development and related work.
-% \end{itemize}
-% \begin{center}  
-% \vspace{-2mm}
-% % \textbf{Residence}: Oslo, Norway\quad 
-% % \textbf{Gender}: Male \quad \textbf{DoB}: 19.08.1997 \quad
-% % \textbf{Nationality}: Nepalese 
-% \end{center}
-
-\section{Work Experiences}
+\makecvtitle
+\vspace*{-2.0\baselineskip}
 
 
-\ResumeItem{\textbf{PhD Student}}[Simula Metropolitan Center for Digital Engineering, Oslo][05/2023 to \textit{Present}]
-\begin{itemize}
-   \item Research on the potential applications of Multimodal Understanding on multiple domains  
-\end{itemize}
+%========================
+\section{Work Experience}
 
-\ResumeItem{\textbf{PhD Enrichment Student}}[The Alan Turing Institute, London][10/2024 to 06/2025]
-\begin{itemize}
-   \item Student Representative for the cohort 2024/25.
-\end{itemize}
+\cventry{May 2023 -- Present}
+        {PhD Student}
+        {\href{https://www.simulamet.no/people/sushant}{Simula Metropolitan Center for Digital Engineering} (SimulaMet)}
+        {Oslo, Norway}
+        {Affiliated to \href{https://www.oslomet.no/en}{Oslo Metropolitan University}}
+        {%
+          \begin{itemize}
+            \item Research on the potential applications of multimodal understanding across multiple domains.
+          \end{itemize}
+        }
 
-\ResumeItem{\textbf{Adjunct Lecturer}}[Tribhuvan University, Thapathali Campus, Nepal][10/2022 to 05/2023]
-\begin{itemize}
-   \item Lectures and Labs for \textit{A Practical Approach to Deep Learning} course \textit{(Contract)}
-   \item Supervising MS projects related to deep learning.
-\end{itemize}
+\cventry{Oct 2024 -- Jun 2025}
+        {PhD Enrichment Student}
+        {\href{https://www.turing.ac.uk/people/doctoral-students/sushant-gautam}{The Alan Turing Institute}}
+        {London, UK}
+        {}
+        {%
+          \begin{itemize}
+            \item Student Representative for the 2024/25 cohort.
+          \end{itemize}
+        }
 
-\ResumeItem{\textbf{Engineering Manager}}[\href{https://ublrandd.com.np/}{North Star Developer's Village}, Lalitpur, Nepal][04/2019 to  05/2023]
-\begin{itemize}
-   \item 	ML Face Verification; Pose-based exam cheating prevention; Image/audio annotation, ML training platform
-   \item Semantic based Essay Ranking; Feedback Bot; Topic Modelling/Analysis; ML functions/models through API.
-\end{itemize}
+\cventry{Oct 2022 -- May 2023}
+        {Adjunct Lecturer (Contract-based)}
+        {\href{https://tcioe.edu.np/}{Thapathali Campus}, Tribhuvan University}
+        {Kathmandu, Nepal}
+        {}
+        {%
+          \begin{itemize}
+            \item Lectures and labs for \textit{A Practical Approach to Deep Learning}.
+            \item Supervised MS projects related to deep learning.
+          \end{itemize}
+        }
 
-\ResumeItem{\textbf{AI Intern}}[\href{https://www.lftechnology.com/}{ Leapfrog Technology}, Kathmandu, Nepal][10/2018 to 03/2019]
-\begin{itemize}
-\item	Predictive models for time series modeling for weather and pollution prediction. 
-\item ARIMA and windowing-based models. Model deployment and web-based interactive interface.
-\end{itemize}
+\cventry{Apr 2019 -- May 2023}
+        {Engineering Manager}
+        {\href{https://ublrandd.com.np/}{North Star Developer's Village}}
+        {Lalitpur, Nepal}
+        {}
+        {%
+          \begin{itemize}
+            \item ML face verification; pose-based exam cheating prevention; image/audio annotation; ML training platform.
+            \item Semantic essay ranking; feedback bot; topic modelling/analysis; ML models exposed via APIs.
+          \end{itemize}
+        }
 
-\ResumeItem{\textbf{Student Research Assistant}}[\href{http://doece.pcampus.edu.np/}{DOECE} for UGC Research Grant Project][01/2018 to 09/2018]
-\begin{itemize}
-\item	Assistant to Prof. Dr. Nanda Bikram Adhikari. Research \& implement appropriate algorithms \& tools. 
-\item Storing sensor data with GPS trace \& data mining. RNN, RapidMiner, Hadoop, WebSocket, etc. 
+\cventry{Oct 2018 -- Mar 2019}
+        {AI Intern}
+        {\href{https://www.lftechnology.com/}{Leapfrog Technology}}
+        {Kathmandu, Nepal}
+        {}
+        {%
+          \begin{itemize}
+            \item Predictive models for time-series weather and pollution forecasting (ARIMA and windowing-based).
+            \item Model deployment and web-based interactive interface.
+          \end{itemize}
+        }
 
-\end{itemize}
+\cventry{Jan 2018 -- Sep 2018}
+        {Student Research Assistant for UGC Research Grant Project}
+        {\href{http://doece.pcampus.edu.np/}{Department of Electronics \& Computer Engineering (DOECE)}}
+        {Lalitpur, Nepal}
+        {}
+        {%
+          \begin{itemize}
+            \item Assisted Prof.\ Dr.\ Nanda Bikram Adhikari on algorithm/tool research \& implementation.
+            \item Sensor data storage with GPS traces \& data mining. Used RNN, RapidMiner, Hadoop, WebSocket, etc.
+          \end{itemize}
+        }
 
+%========================
+\section{Education}
 
+\cventry{Oct 2020 -- Oct 2022}
+        {Master's Degree in Informatics \& Intelligent Systems Engineering}
+        {\href{https://tcioe.edu.np/}{Thapathali Campus}, Tribhuvan University}
+        {Kathmandu, Nepal}
+        {}
+        {%
+          \textit{Full Scholarship for Academic Merit, Top of Class}\\
+          \textbf{Relevant coursework:} Natural Language Processing; Computer Vision; Applied Machine Learning; Deep Learning; Computational Intelligence; Information Theory; Information Visualization; Optimization.
+        }
 
-\section{Educational Experiences}
-\ResumeItem
-% [Beijing Institute of Technology University|Master's student]
-{\textbf{Master's Degree} 
- in \href{https://tcioe.edu.np/page/MSIISE}{Informatics \& Intelligent Systems Engineering}}
-[  Tribhuvan University \\
-Thapathali Campus \qquad \textit{Full Scholarship for Academic Merit, Top of Class}
-]
-[10/2020 to 10/2022]
+\cventry{Oct 2015 -- Oct 2019}
+        {Bachelor's Degree in Computer Engineering}
+        {\href{https://pcampus.edu.np/}{Pulchowk Campus}, Tribhuvan University}
+        {Lalitpur, Nepal}
+        {}
+        {%
+          \textit{Full Scholarship for Academic Merit}\\
+          \textbf{Relevant coursework:} Artificial Intelligence; Probability \& Statistics; Data Mining; Big Data; Theory of Computation.
+        }
 
-\textbf{Relevant Courses:} Natural Language Processing, Computer Vision, Applied Machine Learning, Deep Learning, Computational Intelligence, Information Theory, Information Visualization, Optimization 
+%========================
+\section{Technical Capabilities}
 
-\ResumeItem
-{\textbf{ Bachelor's Degree}  in \href{ http://doece.pcampus.edu.np/index.php/bachelor-in-computer-engineering}{Computer Engineering}}
-[Tribhuvan University\\
-Pulchowk Campus \qquad  \textit{Full Scholarship for Academic Merit}
-]
-[10/2015 to 10/2019 ]
+\cvitem{Programming}{Python, Django, Android (Java/Kotlin), SQL, C/C++.}
+\cvitem{Libraries}{PyTorch, TensorFlow/Keras, Pandas, NumPy, scikit-learn, SciPy, Matplotlib.}
+\cvitem{Languages}{English (Fluent), Nepali (Native), Hindi (Advanced).}
 
-\textbf{Relevant Courses:} AI, Probability \& Statistics, Data Mining, Big Data, Theory of Computation 
-
-
-% \ResumeItem{ \textbf{Online courses}: Machine Learning by Stanford in Coursera, Fundamentals of Statistics by MITx in Edx, Data Mining Specialization by Illinois in Coursera, etc.}
-
-\section[Technical Capabilities]{Technical Capabilities\protect}
-\begin{itemize}
-   \item \textbf{Programming}: Python, Django, Android (Java/Kotlin), SQL, C/C++, etc.
-   % \GrayText{React, Vue.js, HTML/CSS}
-   \item \textbf{Libraries}: Torch, TensorFlow/Keras, Pandas, NumPy, Scikit, SciPy, Matplotlib, etc.
-   \item \textbf{Languages}:
-   English (Fluent), Nepali (Native), Hindi (Advanced)
-\end{itemize}
-
+%========================
 \section{Academic Projects}
 
-\ResumeItem{\href{https://www.researchgate.net/publication/363857936_AI-based_Soccer_Game_Summarization_From_Video_Highlights_to_Dynamic_Text_Summaries}{AI-Based Soccer Game Summarization: From Video Highlights to Dynamic Text Summaries}}
-[MS Thesis]
-% [2021.11 to 2022.07]
-\begin{itemize}
-\item Best thesis in the department (by scores obtained).
-\item In collaboration with the Department of Holistic Systems, \textbf{SimulaMet}.
-\end{itemize}
+\cvitem{MS Thesis}{%
+  \href{https://www.researchgate.net/publication/363857936_AI-based_Soccer_Game_Summarization_From_Video_Highlights_to_Dynamic_Text_Summaries}
+  {AI-Based Soccer Game Summarization: From Video Highlights to Dynamic Text Summaries}.\\
+  Best thesis in the department (by scores). In collaboration with the Department of Holistic Systems, \textbf{SimulaMet}.
+}
 
-\ResumeItem{\href{https://github.com/SushantGautam/DystViz/}{Deep Learning-based Pose Estimation for Dystonia Score Prediction}}
-[MS Project]
-\begin{itemize}
-\item MS Project in Collaboration with \href{https://www.naamii.org.np/}{\textbf{NAAMII}}.
-\end{itemize}
+\cvitem{MS Project}{%
+  \href{https://github.com/SushantGautam/DystViz/}{Deep Learning-based Pose Estimation for Dystonia Score Prediction}.
+  In collaboration with \href{https://www.naamii.org.np/}{\textbf{NAAMII}}.
+}
 
-% [2021.11 to 2022.07]
-\ResumeItem{\href{https://www.researchgate.net/publication/348620827_Near_Realtime_Assessment_of_Fine_Scale_Spatiotemporal_Weather_Anomalies_and_Pollution_Proxies_Around_Kathmandu_Valley}{Assessment of Spatiotemporal Weather and Pollution Proxies with RNN and ARIMA}}
-[Bachelor's Thesis]
-% [2021.11 to 2022.07]
-\begin{itemize}
-\item Best Project Award by Department
-\end{itemize}
-\ResumeItem{\href{https://www.researchgate.net/publication/328043667_MultiLayer_Perceptron_in_Facial_Landmarks_Detection_and_its_Structural_Optimization}{Human Facial Landmarks Detection using Multi-Layer Perceptron}}
-[Bachelor's Project]
-% [2021.11 to 2022.07]
+\cvitem{Bachelor's Thesis}{%
+  \href{https://www.researchgate.net/publication/348620827_Near_Realtime_Assessment_of_Fine_Scale_Spatiotemporal_Weather_Anomalies_and_Pollution_Proxies_Around_Kathmandu_Valley}
+  {Assessment of Spatiotemporal Weather and Pollution Proxies with RNN and ARIMA}.\\
+  Best Project Award by Department.
+}
 
+\cvitem{Bachelor's Project}{%
+  \href{https://www.researchgate.net/publication/328043667_MultiLayer_Perceptron_in_Facial_Landmarks_Detection_and_its_Structural_Optimization}
+  {Human Facial Landmarks Detection using Multi-Layer Perceptron}.
+}
 
+%========================
 \section{Selected Publications}
-\begin{itemize}
-   
- \item {\href{https://dl.acm.org/doi/10.1145/3552463.3557019}{Soccer Game Summarization using Audio Commentary, Metadata, and Captions}}
-[NarSUM, ACM Multimedia, 2022]
 
+\cvitem{2022}{%
+  \href{https://dl.acm.org/doi/10.1145/3552463.3557019}
+  {Soccer Game Summarization using Audio Commentary, Metadata, and Captions}. NarSUM, ACM Multimedia.
+}
+\cvitem{2022}{%
+  \href{https://www.researchgate.net/publication/363737872_Assisting_Soccer_Game_Summarization_via_Audio_Intensity_Analysis_of_Game_Highlights}
+  {Assisting Soccer Game Summarization via Audio Intensity Analysis of Game Highlights}. IOE Graduate Conference.
+}
+\cvitem{2020}{%
+  \href{https://www.researchgate.net/publication/347751604_Near_Real-Time_Mobile_Profiling_and_Modeling_of_Fine-Scale_Environmental_Proxies_Along_Major_Road_Lines_of_Nepal}
+  {Near Real-Time Mobile Profiling and Modeling of Fine-Scale Environmental Proxies Along Major Road Lines of Nepal}. Springer, Cham.
+}
+\cvitem{2019}{%
+  \href{https://www.researchgate.net/publication/330041750_Sentence_Ranking_and_Answer_Pinpointing_in_Online_Discussion_Forums_Utilising_User-generated_Metrics_and_Highlights}
+  {Sentence Ranking and Answer Pinpointing in Online Discussion Forums Utilizing User-generated Metrics and Highlights}. NaSCoIT.
+}
+\cvitem{2018}{%
+  \href{https://www.researchgate.net/publication/328043517_Real_Time-Based_Smart_Traffic_Light_System_with_its_Simulation_using_8051_Microcontroller}
+  {Real Time-Based Smart Traffic Light System with its Simulation using 8051 Microcontroller}. KEC Conference.
+}
 
- \item {\href{https://www.researchgate.net/publication/363737872_Assisting_Soccer_Game_Summarization_via_Audio_Intensity_Analysis_of_Game_Highlights}{Assisting Soccer Game Summarization via Audio Intensity Analysis of Game Highlights}}
-[IOE Graduate Conference, 2022]
+%========================
+\section{Awards \& Certifications}
 
- \item {\href{https://www.researchgate.net/publication/347751604_Near_Real-Time_Mobile_Profiling_and_Modeling_of_Fine-Scale_Environmental_Proxies_Along_Major_Road_Lines_of_Nepal}{Near Real-Time Mobile Profiling and Modeling of Fine-Scale Environmental Proxies Along Major Road Lines of Nepal}}
-[Springer, Cham, 2020]
+\cvitem{NAAMII Winter School}{%
+  \href{https://1nepalschool.naamii.com.np/}{Full scholarship for participation}. Topics: Deep Learning; Computer Vision; Statistics \& Algorithms; Data Science; Optimization.
+}
+\cvitem{Hult Prize TU Winner (2017)}{%
+\href{https://web.archive.org/web/20200923002539/https://glocalkhabar.com/hult-prize-tu-winner-team-aegis-social-entrepreneurship/}{Winning team “AEGIS”}. Presented a sustainable idea to empower refugees in Nepal using an e-commerce platform; presented at Hult Business School, Dubai.
+}
+\cvitem{Mentor}{Global Venture Bootcamp, Asian Development Bank, Philippines — enhancing social ventures with emerging technologies.}
+\cvitem{Participant}{IEEE AI \& Big Data Workshop 2018; led multiple IEEE Student Chapter activities on campus.}
+\cvitem{Participant}{UNICEF 1000 Golden Hours Code Camp (2017) — Best Prototype Award for mobile app idea.}
 
- \item {\href{https://www.researchgate.net/publication/330041750_Sentence_Ranking_and_Answer_Pinpointing_in_Online_Discussion_Forums_Utilising_User-generated_Metrics_and_Highlights}{Sentence Ranking and Answer Pinpointing in Online Discussion Forums Utilizing User-generated Metrics and Highlights}}
-[NaSCoIT, 2019]
-
- \item {\href{https://www.researchgate.net/publication/328043517_Real_Time-Based_Smart_Traffic_Light_System_with_its_Simulation_using_8051_Microcontroller}{Real Time-Based Smart Traffic Light System with its Simulation using 8051 Microcontroller}}
-[KEC Conference, 2018]
-
-\end{itemize}
-
-
-
-
-\section{Awards \& Certifications  }
-\begin{itemize}
-    
-\item {Full Scholarship for Participation at \href{https://1nepalschool.naamii.com.np/}{NAAMII's Winter School in Al}}
-[Deep Learning, Computer Vision, Stats. \& Algorithms, Data Science, Optimization. Met with AI fellows from renowned universities and labs.] 
-
-
-\item {\href{https://glocalkhabar.com/hult-prize-tu-winner-team-aegis-social-entrepreneurship/}{Hult Prize at TU, 2017 Winner}}
-[Presented a sustainable idea to empower refugees in Nepal using an e-commerce platform and got the opportunity to present at Hult Business School, Dubai.]
-
-\item {Mentor at Global Venture Bootcamp at Asian Development Bank, the Philippines}
-[Enhancing social ventures using emerging technologies.]
-
-\item {Participant, IEEE AI \& Big Data Workshop 2018}
-[Led multiple IEEE Student Chapter activities on Campus.]
-
-\item{Participant, UNICEF's 1000 Golden Hours Code Camp, 2017}
-[Best Prototype Award for Mobile App idea.]
-\end{itemize}
-
-\vspace{5mm}
-
-
+%========================
 \section{References}
 
-\begin{center}
-\begin{multicols}{3}
-\textbf{Prof. Pål Halvorsen} Dr.Scient.\\
-\textit{Chief Research Scientist}, SimulaMet\\
-\textit{Professor}, OsloMet\\
-\textit{Adjunct Professor}, UiO\\
-\texttt{paalh@\{simula | ifi\}.uio.no}\\
-+47 97080007
-\vfill\null
-\columnbreak
+\cvitem{Prof.\ Pål Halvorsen}{Chief Research Scientist, SimulaMet; Professor, OsloMet; Adjunct Professor, UiO. \\
+\href{mailto:paalh@simula.uio.no}{paalh@simula.uio.no} / \href{mailto:paalh@ifi.uio.no}{paalh@ifi.uio.no}; +47 97080007.}
 
-\textbf{Dr. Cise Midoglu}\\
-\textit{Postdoctoral Fellow}\\
-Department of Holistic Systems (HOST)\\
-SimulaMet\\
-\texttt{cise@simula.no}\\
-+47 92287195
-\vfill\null
-\columnbreak
+\cvitem{Dr.\ Cise Midoglu}{Postdoctoral Fellow, Department of Holistic Systems (HOST), SimulaMet. \\
+\href{mailto:cise@simula.no}{cise@simula.no}; +47 92287195.}
 
-\textbf{Ast. Prof. Dinesh B. Kshetri}\\
-\textit{MSc. Program Coordinator}\\
-IOE, Tribhuvan University\\
-\texttt{dinesh@ioe.edu.np}\\
-+977 9818951364
+\cvitem{Asst.\ Prof.\ Dinesh B. Kshetri}{MSc Program Coordinator, IOE, Tribhuvan University. \\
+\href{mailto:dinesh@ioe.edu.np}{dinesh@ioe.edu.np}; +977 9818951364.}
 
-\end{multicols}
-\end{center}
-
-\par\vfill
-\hfill{\scriptsize\color{gray}{
-Compiled: \selectlanguage{english}\today \quad | \quad Updated: October 1, 2025 \quad | \quad
-Check {\color{black}\href{https://sushant.info.np/resume}{sushant.info.np/resume}} for updates.
-}}
-\clearpage
+%========================
+\vfill
+\begin{flushright}
+{\footnotesize Compiled: \today \quad|\quad Updated: October 1, 2025 \quad|\quad Check \href{https://sushant.info.np/resume}{sushant.info.np/resume} for updates.}
+\end{flushright}
 
 \end{document}
-
